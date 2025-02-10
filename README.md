@@ -82,16 +82,16 @@ flake8
 A API possui endpoints para gerenciamento de filmes e atores. Abaixo estão alguns exemplos:
 
 ### Autenticação
-- `POST /api/token/` - Obter token JWT
+- `POST /api/v1/token/` - Obter token JWT
 - `POST /api/token/refresh/` - Atualizar token JWT
 
 ### Atores
-- `GET /api/actors/` - Listar todos os atores
-- `POST /api/actors/` - Criar um novo ator
+- `GET /api/v1/actors/` - Listar todos os atores
+- `POST /api/v1/actors/` - Criar um novo ator
 
 ### Filmes
-- `GET /api/movies/` - Listar todos os filmes
-- `POST /api/movies/` - Criar um novo filme
+- `GET /api/v1/movies/` - Listar todos os filmes
+- `POST /api/v1/movies/` - Criar um novo filme
 
 ## Contribuição
 
