@@ -7,7 +7,6 @@ Flix API é uma API REST desenvolvida com Django e Django REST Framework (DRF) p
 - Python
 - Django
 - Django REST Framework (DRF)
-- PostgreSQL (ou outro banco de dados configurado)
 - JWT para autenticação
 - Flake8 como linter
 
