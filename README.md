@@ -65,12 +65,7 @@ name,birthday,nationality
 python manage.py import_actors caminho/para/arquivo.csv
 ```
 
-## Testes e Qualidade de Código
-
-### Rodar testes automatizados
-```bash
-python manage.py test
-```
+## Qualidade de Código
 
 ### Analisar padrões de código com Flake8
 ```bash
