@@ -31,20 +31,17 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-### 4. Configurar variáveis de ambiente
-Crie um arquivo `.env` e defina as configurações necessárias, como a chave secreta do Django e as credenciais do banco de dados.
-
-### 5. Aplicar migrações
+### 4. Aplicar migrações
 ```bash
 python manage.py migrate
 ```
 
-### 6. Criar um superusuário (opcional)
+### 5. Criar um superusuário
 ```bash
 python manage.py createsuperuser
 ```
 
-### 7. Executar o servidor
+### 6. Executar o servidor
 ```bash
 python manage.py runserver
 ```
@@ -92,9 +89,9 @@ A API possui endpoints para gerenciamento de filmes e atores. Abaixo estão algu
 
 Contribuições são bem-vindas! Para sugerir melhorias:
 1. Fork este repositório.
-2. Crie uma branch para sua funcionalidade: `git checkout -b minha-funcionalidade`
+2. Crie uma branch para sua funcionalidade: `git checkout -b nova-funcionalidade`
 3. Faça commit das mudanças: `git commit -m "Adiciona nova funcionalidade"`
-4. Envie para o repositório remoto: `git push origin minha-funcionalidade`
+4. Envie para o repositório remoto: `git push origin nova-funcionalidade`
 5. Abra um Pull Request.
 
 ## Licença
