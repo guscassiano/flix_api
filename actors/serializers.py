@@ -1,9 +1,17 @@
-from rest_framework.serializers import ModelSerializer
-from actors.models import ActorModel
+from rest_framework.serializers import ModelSerializer, CharField
+from actors.models import ActorModel, Nationality
 
 
 class ActorSerializers(ModelSerializer):
+    nationality = CharField(source='nationality.name', read_only=True)
 
     class Meta:
         model = ActorModel
-        fields = '__all__'
+        fields = ['id', 'name', 'birthday', 'nationality']
+
+
+class NationalitySerializer(ModelSerializer):
+
+    class Meta:
+        model = Nationality
+        fields = ['id', 'name']
